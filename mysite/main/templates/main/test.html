@@ -1,0 +1,24 @@
+{% extends 'main/base.html' %}
+
+{% block body_class %}child-page2{% endblock %}
+{% block content %}
+    <div class="features">
+        <h1 class="ert">{{ title }}</h1>
+        <button type="button" class="btn btn-danger">Кнопка для нихуя</button>
+        {% for el in item %}
+            {% if el == 'about' %}
+                {% filter upper %}
+                    <p>{{ el }}</p>
+                {% endfilter %}
+            {% endif %}
+        {% endfor %}
+        
+        {% for el in obj %}
+            <p>{{ el }}</p>
+            <p>{{ obj.text }}</p>
+        {% endfor %}
+
+        <a href="{% url 'home' %}">Перейти на главную</a>
+        <p><a href="{% url 'news' %}">Перейти к новостям</a></p>
+    </div>
+{% endblock %}

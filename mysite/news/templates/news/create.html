@@ -1,0 +1,17 @@
+{% extends 'main/base.html' %}
+
+{% block body_class %}child-page3{% endblock %}
+
+{% block content %}
+<form method="post">
+    <div>
+        {% csrf_token %}
+        {{ form.title }}<br>
+        {{ form.anons }}<br>
+        {{ form.FULL }}<br>
+        {{ form.date }}<br>
+        <span>{{ error }}</span>
+        <button type="submit" class="btn btn-success">Добавить</button>
+    </div>
+</form>
+{% endblock %}

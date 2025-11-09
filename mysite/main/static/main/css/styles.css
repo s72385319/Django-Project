@@ -1,0 +1,147 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+body.child-page1 {
+    background-color: #222;
+    height: 1000px;
+}
+
+body.child-page2 {
+    background-color: white;
+    height: 1000px;
+    color: black;
+}
+
+#qsc {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.we {
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: fuchsia;
+}
+
+img {
+    width: 400px;
+    border-radius: 200px;
+    border: red 5px dashed;
+}
+
+.imgs {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.blockd {
+    margin-top: 80px;
+    width: 20%;
+    height: 37%;
+    background-color: gray;
+    position: fixed;
+    float: left;
+    border-radius: 10px;
+    border: black 4px dotted;
+}
+
+:has(details[open]) .blockd {
+    margin-top: 80px;
+    width: 20%;
+    height: 68%;
+    background-color: gray;
+    position: fixed;
+    float: left;
+    border-radius: 10px;
+    border: black 4px dotted;
+}
+
+details b, summary {
+    color: black;
+    position: relative;
+    margin-top: 10%;
+    list-style: none;
+    padding: 8px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+details b {
+    display: block;
+    margin-top: 5px;
+}
+
+details:hover summary {
+    color: aqua;
+}
+
+#txts {
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+    margin-top: 50px;
+    color: white;
+    font-weight: bolder;
+}
+
+i#rtf {
+    text-align: center;
+}
+
+.features {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+
+li#edc {
+    padding-left: 8px;
+    color: white;
+    border-radius: 10px;
+    padding-block: 5px;
+    margin-top: 15px;
+    background-color: #222;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    border-radius: 30px ;
+    list-style: none;
+    font-weight: 500;
+    width: 30vh;
+    margin-left: 0;
+}
+
+form>div {
+    width: 600px;
+    margin-top: 30px;
+}
+
+.form-control {
+    background-color: #222;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: white;
+    
+}
+
+.form-control:focus::placeholder {
+    color: black;
+}
+
+.child-page3 {
+    background-color: deeppink;
+}
