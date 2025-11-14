@@ -15,6 +15,10 @@ body.child-page2 {
     color: black;
 }
 
+.child-page3 {
+    background-color: deeppink;
+}
+
 #qsc {
     background-color: black;
     color: white;
@@ -140,8 +144,4 @@ form>div {
 
 .form-control:focus::placeholder {
     color: black;
-}
-
-.child-page3 {
-    background-color: deeppink;
 }
