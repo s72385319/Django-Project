@@ -5,7 +5,10 @@
 #qasd {
     width: 30%;
     height: 30%;
-    position: relative;
     text-align: center;
 }
 
+#alig {
+    display: inline;
+    text-align: center;
+}

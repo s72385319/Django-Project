@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+
+{% block body_class %}child-page3{% endblock %}
+{% block title %}Удалить новость😟{% endblock %}
+
+{% block content %}
+<h1 class="ert">Удалить новость</h1>
+<form method="post">
+    <div>
+        {% csrf_token %}
+        <button type="submit" class="btn btn-success">Удалить новость</button>
+    </div>
+</form>
+{% endblock %}

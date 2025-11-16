@@ -16,7 +16,7 @@ body.child-page2 {
 }
 
 .child-page3 {
-    background-color: deeppink;
+    background-color: #7793f9;
 }
 
 .child-page4 {
@@ -48,8 +48,9 @@ img {
 
 .blockd {
     margin-top: 80px;
+    margin-left: 10px;
     width: 20%;
-    height: 37%;
+    height: 44.5%;
     background-color: gray;
     position: fixed;
     float: left;
@@ -58,9 +59,10 @@ img {
 }
 
 :has(details[open]) .blockd {
+    margin-left: 10px;
     margin-top: 80px;
     width: 20%;
-    height: 68%;
+    height: 75.1%;
     background-color: gray;
     position: fixed;
     float: left;
@@ -85,7 +87,9 @@ details b {
 }
 
 details:hover summary {
-    color: aqua;
+    text-decoration: overline;
+    text-decoration-color: rgb(28, 255, 100);
+    cursor: pointer;
 }
 
 #txts {
@@ -133,6 +137,7 @@ li {
 form>div {
     width: 600px;
     margin-top: 30px;
+    text-align: center;
 }
 
 .form-control {

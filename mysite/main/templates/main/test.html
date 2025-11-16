@@ -1,6 +1,7 @@
 {% extends 'main/base.html' %}
 
 {% block body_class %}child-page2{% endblock %}
+{% block title %}Скоро🥑і{% endblock %}
 
 {% block content %}
     <div class="features">
@@ -19,6 +20,5 @@
             <br><br>
             <p>{{ obj.text }}</p>
         {% endfor %}
-        <a href="{% url 'home' %}" class="btn btn-warning">Перейти на главную</a>
     </div>
 {% endblock %}
